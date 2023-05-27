@@ -1,6 +1,6 @@
 html{
   background-color: #000;
-  background-image: url("OuterSpcae.jpg");
+  background-image: url("OuterSpcae.jpg") no-repeat;
 }
 body{
   height: 100%;
