@@ -1,0 +1,135 @@
+<HTML>
+    <HEAD>
+        <title>Time</title>
+        <link rel="stylesheet"type="text/css" href="../CSS files/TimeTableMain.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.js"></script>
+    <script src="../JS files/TimeTableMain.js"></script>
+    </HEAD>
+    <BODY>
+      <div class="MainContainer" id="content">
+         <input type="button" id="download" value="Download PDF" />
+    <input type="button" value="Add row" onClick="addRow()" />
+    <input type="button" value="Add column" onClick="addColumn()" />
+    <input type="button" value="Delete selected rows" onClick="deleteSelectedRows()" />
+    <input type="button" value="Delete column" onClick="deleteColumn()" />
+    <input type="button" value="Delete all rows" onClick="deleteAllRows()" />
+    <br>
+    <table id="my_table" cellpadding="1" cellspacing="1">
+      <div class="text1">
+        <input type="text" id="College" placeholder="Enter Your College Name"><br>
+        <input type="text" id="Branch" placeholder="Enter Your Branch Name"><br>
+        <input type="text" id="Session" placeholder="Enter Your Current Session">
+      </div>
+     
+    <thead><tr>
+        <th></th>
+        <th>TimeTable</th>
+        <th>
+         BRANCH  
+        </th>
+        <th>
+          <input type="time"/><input type="time"  value="Feature" />
+
+        </th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <th >
+    
+        </th> 
+       
+    </tr>
+    
+    </tbody>
+</table>
+
+<div class="SubjectsNFaculty">
+  <table id="Subject">
+   <tr>
+       <td>Faculty Members</td>
+           <td>Lecture</td>
+           <td>Practical</td>
+       </tr>
+   </tr>
+<tr>
+<td><input type="text"></td>
+   <td><input type="text"></td>
+   <td><input type="text"></td>
+</tr>
+<tr>
+   <td><input type="text"></td>
+   <td><input type="text"></td>
+   <td><input type="text"></td>
+  
+</tr>
+<tr>
+   <td><input type="text"></td>
+<td><input type="text"></td>
+<td><input type="text"></td>
+</tr>
+<tr>
+   <td><input type="text"></td>
+   <td><input type="text"></td>
+   <td><input type="text"></td>
+  
+</tr>
+<tr>
+   <td><input type="text"></td>
+<td><input type="text"></td>
+<td><input type="text"></td>
+</tr>
+  </table>
+
+  <div class="Table2">
+  <table>
+   <tr>
+       <td>Faculty Members</td>
+           <td>Lecture</td>
+           <td>Practical</td>
+       </tr>
+   </tr>
+<tr>
+<td><input type="text"></td>
+   <td><input type="text"></td>
+   <td><input type="text"></td>
+</tr>
+<tr>
+   <td><input type="text"></td>
+   <td><input type="text"></td>
+   <td><input type="text"></td>
+  
+</tr>
+<tr>
+   <td><input type="text"></td>
+<td><input type="text"></td>
+<td><input type="text"></td>
+</tr>
+<tr>
+   <td><input type="text"></td>
+   <td><input type="text"></td>
+   <td><input type="text"></td>
+  
+</tr>
+<tr>
+   <td><input type="text"></td>
+<td><input type="text"></td>
+<td><input type="text"></td>
+</tr>
+
+
+  </table>
+</div>
+</div>
+
+<div class="Sign" id="editor">
+
+  <h2>HOD </h2>    <h2>PRINCIPAL</h2>
+</div>
+
+
+</div>
+
+
+    </BODY>
+    </HTML>
