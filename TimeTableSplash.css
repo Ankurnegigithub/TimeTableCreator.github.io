@@ -1,6 +1,11 @@
 html{
   background-color: #000;
-  background-image: url("OuterSpcae.jpg");
+  background-image: url("OuterSpcae.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+
+  -moz-background-size: cover;
+
+  -o-background-size: cover;
 }
 body{
   height: 100%;
