@@ -9,9 +9,13 @@
 
 body {
   background-color: #0583D2;
-  background: url("backLogin.png");
+  background: url(backLogin.png) no-repeat center center fixed;
   background-size: cover;
-  background-position: center;
+  -webkit-background-size: cover;
+
+  -moz-background-size: cover;
+
+  -o-background-size: cover;
 }
 
 h1 {
